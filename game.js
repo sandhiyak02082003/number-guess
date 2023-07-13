@@ -14,7 +14,7 @@ submitButton.onclick = () =>
     
     if(inputNumber==randomNumber)
     {
-       location.href="./win.html";
+       msg="You won the game";
        
     }
     else if(inputNumber>randomNumber)
